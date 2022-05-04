@@ -7,6 +7,9 @@ All notable, unreleased changes to this project will be documented in this file.
   - Changed the order line `id` from `int` to `UUID`, the old ids still can be used
   for old order lines.
 - Fix invalid `ADDED_PRODUCTS` event parameter for `OrderLinesCreate` mutation - #9653 by @IKarbowiak
+- Migrate order discount id from int to UUID - #9729 by @IKarbowiak
+  - Changed the order discount `id` from `int` to `UUID`, the old ids still can be used
+  for old order discounts.
 
 ### Other changes
 - Fix for sending incorrect prices to Avatax - #9633 by @korycins
